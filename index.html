@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Chúc Mừng Năm Mới</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <audio autoplay loop>
+        <source src="nhac-nen.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <!-- Hộp quà -->
+    <div class="gift-box">
+        <img src="box.gif" alt="Hộp Quà" class="gift">
+    </div>
+
+    <!-- Popup thông điệp -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <img src="card-opening.gif" alt="Thiệp Mở" class="card-open">
+            <p class="message">Này, siêu nhân hồng của tớ!</p>
+            <p class="message">Năm mới rồi, nhưng hôm nay tớ thấy cậu có vẻ hơi mệt. Đừng buồn nhé, vì siêu nhân hồng nào cũng cần nghỉ ngơi và nạp lại năng lượng mà! Cố lên, mọi chuyện rồi sẽ ổn thôi, tớ tin cậu mà.</p>
+            <p class="message">Nhân dịp năm mới, tớ chúc cậu thật nhiều sức khỏe (để còn chiến đấu với thế giới), may mắn (để mọi thứ nhẹ nhàng hơn một chút), và một núi niềm vui để cậu không còn thấy áp lực nữa. À, đừng quên cười nha, nụ cười của cậu là năng lượng tích cực nhất mà tớ biết đấy. 😊</p>
+            <p class="message">Nếu mệt quá thì cứ nghỉ một tí, để siêu nhân hồng hôm nay được làm "hồng nhỏ dễ thương" thôi. Tớ đây luôn sẵn sàng làm đồng đội, nghe cậu tâm sự, hoặc thậm chí kể chuyện cười nhạt nhẽo cho cậu giải trí. 😂</p>
+            <p class="message">Chúc siêu nhân hồng của tớ năm mới thật hạnh phúc và luôn nhớ rằng cậu không cần hoàn hảo đâu, vì chính cậu đã tuyệt lắm rồi!</p>
+            <button class="close-btn" onclick="closePopup()">Đóng</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
